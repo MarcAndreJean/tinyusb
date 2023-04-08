@@ -59,6 +59,10 @@
   #if CFG_TUH_VENDOR
     #include "class/vendor/vendor_host.h"
   #endif
+  
+  #if CFG_TUH_XINPUT
+    #include "xinput_host.h"
+  #endif
 
 #endif
 
